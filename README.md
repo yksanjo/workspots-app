@@ -1,33 +1,84 @@
-# workspots app - Revenue Solo Business
+# workspots-app
 
-## Project Overview
-This is one of 10 revenue-generating solo businesses. Complete implementation details coming soon.
+## Detailed Description
 
-## Quick Start
-```bash
-npm install
-npm run dev
+workspots-app is maintained as an industry-grade software project with production-ready engineering practices.  
+This repository includes documented setup, quality gates, operational guidance, and governance standards so contributors can safely build, test, and ship changes with confidence.
+
+## Problem Statement
+
+Describe the user or business problem this project solves, the target users, and expected outcomes.
+
+## Solution Overview
+
+Summarize the architecture, core modules, and runtime behavior at a high level.
+
+## Key Features
+
+- Clear project scope and intended use.
+- Reproducible local development workflow.
+- Test coverage and CI quality gates.
+- Security and contribution policies.
+- Deployment-ready repository structure.
+
+## Repository Structure
+
+```text
+.
+|-- src/                  # Core implementation
+|-- tests/                # Automated test suites
+|-- docs/                 # Design notes and operational docs
+|-- .github/workflows/    # CI pipelines
+|-- README.md
+|-- LICENSE
+|-- CONTRIBUTING.md
+|-- SECURITY.md
+|-- CODE_OF_CONDUCT.md
 ```
 
-## Deployment
-Deploy to Vercel with one click:
+## Getting Started
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yksanjo/workspots-app)
+### Prerequisites
 
-## Tech Stack
-- Next.js 14
-- React
-- TypeScript
-- Tailwind CSS
-- Supabase (PostgreSQL)
+- Git
+- Project runtime/toolchain for this repo
 
-## Revenue Model
-- Starter: $99/month
-- Pro: $299/month
-- Enterprise: $599/month
+### Local Setup
 
-## Status
-🚧 Implementation in progress
+```bash
+npm ci
+npm run lint
+npm test
+npm run build
+```
 
----
-Part of the 10 Revenue Solo Businesses portfolio by @yksanjo
+## Usage
+
+Document primary commands, API routes, CLI examples, or UI workflows here.
+
+## Quality Standards
+
+- CI must pass before merge.
+- Changes require tests for critical behavior.
+- Security-sensitive changes should include risk notes.
+- Keep pull requests focused and reviewable.
+
+## Security
+
+See `SECURITY.md` for responsible disclosure and handling guidelines.
+
+## Contributing
+
+See `CONTRIBUTING.md` for branching, commit, and pull request expectations.
+
+## Roadmap
+
+Track upcoming milestones, technical debt, and planned feature work.
+
+## Support
+
+Open a GitHub issue for bugs, feature requests, or documentation gaps.
+
+## License
+
+This project is released under the MIT License.
